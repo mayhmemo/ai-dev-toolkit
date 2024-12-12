@@ -26,7 +26,8 @@ class TerminalBuilderCommand(Command):
             help="Build and execute terminal commands using AI"
             
         )
-        self.agent = Agent('openai:gpt-4o-mini', result_type=CliResultType, system_prompt=system_prompt)
+        self.agent = Agent(
+        'groq:llama3-8b-8192', result_type=CliResultType, system_prompt=system_prompt)
     
     def execute(self, request: str):
         try:
