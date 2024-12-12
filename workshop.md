@@ -24,3 +24,6 @@ Estrutura do Workshop: Uso da IA no Dia a Dia de Desenvolvedores de Software (4 
 5. Fechamento (15-20 min)
 - Resumo final
 - Q&A 
+
+6. Conclusão
+- Epa, ainda não tem
