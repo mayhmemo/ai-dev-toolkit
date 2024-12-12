@@ -1,0 +1,8 @@
+diff --git a/src/api.py b/src/api.py
+-    def old_function(param1):
++    def new_function(param1, param2):
+diff --git a/src/models.py b/src/models.py
+-class OldClass:
++class NewClass:
+diff --git a/src/interface.py b/src/interface.py
++# BREAKING CHANGE: Changed API response format 

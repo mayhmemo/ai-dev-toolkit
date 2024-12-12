@@ -1,0 +1,13 @@
+diff --git a/file1 b/file2
+--- a/file1
++++ b/file2
+@@ -1,5 +1,6 @@
+ unchanged line
+-removed line
++added line
++another added line
+ unchanged line
+\ No newline at end of file
+@@ -10,2 +11,3 @@
++one more change
+ final line 

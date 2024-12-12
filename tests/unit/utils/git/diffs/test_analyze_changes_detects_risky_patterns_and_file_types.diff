@@ -1,0 +1,15 @@
+diff --git a/test.py b/test.py
+index 1234567..89abcdef 100644
+--- a/test.py
++++ b/test.py
+@@ -1,1 +1,4 @@
+-old line
++TODO: fix this later
++print('debug')
++debugger
+diff --git a/main.js b/main.js
+index abcdef0..12345678 100644
+--- a/main.js
++++ b/main.js
+@@ -1,0 +1,1 @@
++console.log('test') 

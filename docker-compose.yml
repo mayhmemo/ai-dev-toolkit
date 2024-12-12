@@ -1,0 +1,7 @@
+services:
+  tests:
+    image: test-image
+    build: .
+    volumes:
+      - .:/app
+    command: poetry run pytest -v --no-cov -x tests/ 
