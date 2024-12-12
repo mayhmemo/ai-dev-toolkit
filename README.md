@@ -75,3 +75,7 @@ Etapa 01:
 
 Referencia:
 Livro - Mermaid JS - Creating Software with Modern Diagramming Techniques: Build Better Software with Mermaid
+
+Como deixar o modelos LLM mais deterministico?
+Temperature - 0.0
+Seed - 42
