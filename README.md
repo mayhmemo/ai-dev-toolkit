@@ -15,8 +15,14 @@ cd ai-dev-toolkit
 UV é um instalador rápido de pacotes Python e gerenciador de dependências escrito em Rust. Aqui está como instalar:
 
 ```bash
-# Instalar UV usando curl
+# Instalar UV usando curl Macos ou Linux
 curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+
+```bash
+# Instalar UV usando PowerShell Windows
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 ## Instalando Python 3.10 usando UV
